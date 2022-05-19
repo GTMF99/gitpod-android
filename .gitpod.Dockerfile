@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install zip \
     lsof \
     ssl-cert \
     fish \
-    zsh \
+    zsh --no-install-recommends --yes \
 && locale-gen en_US.UTF-8
 
 ENV LANG=en_US.UTF-8
