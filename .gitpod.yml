@@ -1,1 +1,2 @@
-image: androidsdk/android-31
+image:
+  file: .gitpod.Dockerfile
